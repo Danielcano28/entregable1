@@ -1,0 +1,30 @@
+.planet {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  bottom: 0;
+}
+
+.planet.planeta1 {
+  background-image: url(/planeta1.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.planet.planeta2 {
+  background-image: url(/planeta2.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.planet.planeta3 {
+  background-image: url(/planeta3.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.planet.planeta4 {
+  background-image: url(/planeta4.png);
+  background-position: bottom;
+  background-size: cover;
+}

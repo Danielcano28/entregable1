@@ -1,0 +1,89 @@
+@import url("https://fonts.cdnfonts.com/css/feast-of-flesh-bb");
+
+.quoteCard {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+
+.quoteCard__container {
+  max-width: 1024px;
+
+  width: 100%;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  z-index: 20;
+}
+
+.text__quoteCard {
+  letter-spacing: 2px;
+  padding: 20px;
+  border-radius: 1rem;
+  color: black;
+  background-color: #ecdfdf;
+  opacity: 0.5;
+  font-size: 30px;
+  margin: auto 0;
+  max-width: 400px;
+  font-family: "Feast of Flesh BB", sans-serif;
+  text-align: center;
+}
+.title {
+  letter-spacing: 3px;
+  padding: 2rem;
+  font-size: 60px;
+  font-family: "Feast of Flesh BB", sans-serif;
+}
+
+.title {
+  position: relative;
+  animation: animationBox 1s infinite;
+}
+
+@keyframes animationBox {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+.quoteCard__btn {
+  cursor: pointer;
+  padding: 15px;
+  font-size: 30px;
+  border: none;
+  border-radius: 100%;
+  position: relative;
+  animation: animationBtn 1s infinite;
+}
+
+@keyframes animationBtn {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+.quoteCard__Author {
+  color: white;
+  font-size: 22px;
+  z-index: 1;
+}
