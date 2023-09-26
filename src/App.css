@@ -1,6 +1,7 @@
 .app {
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 .app.imagen1 {
